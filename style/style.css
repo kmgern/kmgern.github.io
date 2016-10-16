@@ -98,7 +98,7 @@ nav .details {
   text-align: left;
 
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
   padding-top: 4rem;
 }
 
