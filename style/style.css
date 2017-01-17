@@ -45,8 +45,8 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Futura', sans-serif;
-	font-weight: 400;
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
 }
 
 h1 {
@@ -156,8 +156,8 @@ nav.center {
 }
 
 .logo {
-	font-family: 'futura', sans-serif;
-	font-weight: 300;
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
 	font-size: 2rem;
 }
 
@@ -185,17 +185,16 @@ footer {
 }
 
 footer a {
-  font-family: 'Futura', sans-serif;
+  font-family: futura-pt, sans-serif;
   color: black;
   font-weight: 500;
 }
+
 footer a:not(:last-child) {
   border-right: 1px solid black;
   padding-right: .5rem;
   margin-right: .5rem;
 }
-
-
 
 .copy-right {
   display: flex;
