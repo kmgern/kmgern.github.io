@@ -1,182 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Kristina Gern | Web Designer</title>
-	<link rel="stylesheet" type="text/css" href="style/reset.css">
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta charset="UTF-8">
+    <title>Kristina Gern | Web Designer</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 
-	<script src="https://use.typekit.net/kuv6htt.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script src="https://use.typekit.net/kuv6htt.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }</script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-90197866-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-90197866-1', 'auto');
+        ga('send', 'pageview');
 
-	</script>
+    </script>
 </head>
+
 <body>
+<nav>
+    <div class="logo">KG</div>
+    <div class="language" data-i18n-toggle>
+        <span class="en">en</span> | <span class="es">es</span>
+    </div>
+</nav>
 
-<header>
-	<div class="logo">KG</div>
-	<div class="language" data-i18n-toggle>
-		<span class="en">en</span> | <span class="es">es</span>
-	</div>
-</header>
+<main>
+    <header>
+        <h1>Kristina Gern</h1>
+        <h2 data-i18n="web designer"
+            data-i18n-es="diseñadora web"></h2>
+        <span data-i18n="Boulder, Colorado"
+              data-i18n-es="Boulder, Colorado"></span>
+    </header>
 
-<div class="content">
-	<div class="title">
-		<h1>Kristina Gern</h1>
-		<h2 data-i18n="web designer"
-			data-i18n-es="diseñadora web"></h2>
-		<span data-i18n="Boulder, Colorado"
-			data-i18n-es="Boulder, Colorado"></span>
-	</div>
+    <section class="about">
+        <div class="category"
+             data-i18n="about"
+             data-i18n-es="acerca">
 
-		<!-- <div class="feature">
-		<div class="image">
-			<img src="images/sketchbook.jpg" alt="CSS Tricks" height="300" width="400">
-		</div>
-		</div>
+        </div>
 
-		<div class="feature">
-		<div class="image">
-			<img src="images/profile.jpg" alt="Urban Merch" height="300" width="400">
-		</div>
-		</div> -->
-
-<nav class="left">
-	<div class="category" data-i18n="about"
-		data-i18n-es="acerca"></div>
-
-	<div class="details">
-		<h4 data-i18n="Designer"
-			data-i18n-es="Diseñadora"></h4>
-		<p data-i18n="Kristina received training from the Dublin Institute of Design in Interactive Media and Web Design.
+        <div class="details">
+            <h4 data-i18n="Designer"
+                data-i18n-es="Diseñadora"></h4>
+            <p data-i18n="Kristina received training from the Dublin Institute of Design in Interactive Media and Web Design.
 									She regularly reads the latest trends in design and markup languages. As an empathetic introvert she
 									enjoys the thoughtful process of putting herself in her users' shoes, by first understanding their
 									goals and experiences in order to make informed and efficient UI/UX decisions."
 
-		data-i18n-es="Kristina recibió entrenamiento del Dublin Institute of Design en Medios Interactivos y Diseño Web.
+               data-i18n-es="Kristina recibió entrenamiento del Dublin Institute of Design en Medios Interactivos y Diseño Web.
 									Ella lee con regularidad las últimas tendencias en lenguajes de diseño y de marcado. Como una introvertida
 									y empática que disfruta el proceso reflexivo de ponerse en el lugar de sus usuarios, primero
 									trata de entender sus objetivos y experiencias por si acaso hacer decisiones informados y eficientes con
 									el interfaz y estrategia de usuario.">
-		</p>
+            </p>
 
-		<h4 data-i18n="Multidisciplinary"
-			data-i18n-es="Multidisciplinaria"></h4>
-		<p data-i18n="With a diverse educational and professional background, Kristina's multidisciplinary approach is an asset to
+            <h4 data-i18n="Multidisciplinary"
+                data-i18n-es="Multidisciplinaria"></h4>
+            <p data-i18n="With a diverse educational and professional background, Kristina's multidisciplinary approach is an asset to
 		 							any project. Her professional experiences range from event planning, to teaching Spanish and Art, to
 									consulting on curriculum and instruction. Kristina received her undergraduate degree in Spanish and Management
 									Studies and her Master's degree in Curriculum and Instruction. Web design allows Kristina to weave together
 									her social, artistic and linguistic interests as she brings each of her unique clients up to speed in our
 									digital age."
-			data-i18n-es="Con una amplia formación académica y profesional, la perspectiva multidisciplinaria de Kristina es un
+               data-i18n-es="Con una amplia formación académica y profesional, la perspectiva multidisciplinaria de Kristina es un
 									beneficio a cada proyecto. Sus experiencias profesionales incluyen: organizadora de eventos, profesora del
 									arte y español, y consultante de currículo e instrución. Kristina recibió su licenciatura en Español y Estudios
 									de Gestión y sus estudios de maestría en Currículo e Instrucción. Diseño web permite Kristina a tejer juntos sus
 									intereses sociales, artísticas y lingüísticas, mientras que mejore los procesos del usuario en nuestra era
 									digital.">
-		</p>
+            </p>
 
-		<h4 data-i18n="Traveler"
-			data-i18n-es="Viajera"></h4>
-		<p data-i18n="Immersing herself in other cultures and nature continuously fuels Kristina’s creativity as a designer."
-			data-i18n-es="Inmersión en otras culturas y en la naturaleza continuamente genera creatividad para Kristina como una
+            <h4 data-i18n="Traveler"
+                data-i18n-es="Viajera"></h4>
+            <p data-i18n="Immersing herself in other cultures and nature continuously fuels Kristina’s creativity as a designer."
+               data-i18n-es="Inmersión en otras culturas y en la naturaleza continuamente genera creatividad para Kristina como una
 										diseñadora.">
-		</p>
-	</div>
+            </p>
+        </div>
 
-</nav>
+    </section>
 
+    <section class="work">
+        <div class="category" data-i18n="work" data-i18n-es="trabajo"></div>
+        <div class="details">
+            <h4 data-i18n="UI Design"
+                data-i18n-es="Diseño de Interfaz de Usuario"></h4>
 
-<nav class="right">
-	<div class="category" data-i18n="work" data-i18n-es="trabajo"></div>
-	<div class="details">
-		<h4 data-i18n="UI Design"
-			data-i18n-es="Diseño de Interfaz de Usuario"></h4>
+            <p data-i18n="Discovery → Wireframes → Mockups → HTML5/CSS3 Build → Hosting/Delivery"
+               data-i18n-es="Descubrimiento → Maquetas → Construir con HTML5 / CSS3 → Proveer Servicio de Internet / Entrega">
+            </p>
 
-		<p data-i18n="Discovery → Wireframes → Mockups → HTML5/CSS3 Build → Hosting/Delivery"
-			data-i18n-es="Descubrimiento → Maquetas → Construir con HTML5 / CSS3 → Proveer Servicio de Internet / Entrega">
-		</p>
-
-		<p data-i18n="Kristina follows lean design principles where the design process is a continous conversation involving user
+            <p data-i18n="Kristina follows lean design principles where the design process is a continous conversation involving user
 									research and client feedback."
-			data-i18n-es="Kristina sigue principios de diseño lean en que cada paso del camino es una conversación que involucra la
-										opinión y experiencia de los clientes y la experiencia e investigaciones de los usuarios."</p>
+               data-i18n-es="Kristina sigue principios de diseño lean en que cada paso del camino es una conversación que involucra la
+										opinión y experiencia de los clientes y la experiencia e investigaciones de los usuarios."></p>
 
-		<h4 data-i18n="UX Strategy"
-			data-i18n-es="Estrategia UX"></h4>
+            <h4 data-i18n="UX Strategy"
+                data-i18n-es="Estrategia UX"></h4>
 
-		<p data-i18n="By keeping up with current trends in UX strategies Kristina is able to combine her clients’ business strategy
+            <p data-i18n="By keeping up with current trends in UX strategies Kristina is able to combine her clients’ business strategy
 		 							with user goals to produce effective outcomes in site design and business growth."
 
-			data-i18n-es="Mediante el estudio de las estrategias UX, Kristina tiene capaz de combinar la estrategia de negocios de sus
+               data-i18n-es="Mediante el estudio de las estrategias UX, Kristina tiene capaz de combinar la estrategia de negocios de sus
 										clientes con los objetivos del usuario para producir resultados efectivos en el diseño del sitio y el
 										crecimiento del negocio.">
-		</p>
+            </p>
 
-		<h4 data-i18n="Branding"
-			data-i18n-es="Marca e Identidad"></h4>
+            <h4 data-i18n="Branding"
+                data-i18n-es="Marca e Identidad"></h4>
 
-		<p data-i18n="Whether a startup looking to create initial branding or a long-standing business looking to rebrand,
+            <p data-i18n="Whether a startup looking to create initial branding or a long-standing business looking to rebrand,
 									Kristina offers creative direction invisioning, defining and creating a company's visual and experiential
 									identity: designing the company logo, style guide, color palettes, typography and photography."
 
-			data-i18n-es="Ya sea un negocio inicio que busca crear su marca inicial o una empresa veterana en busca de cambio de
+               data-i18n-es="Ya sea un negocio inicio que busca crear su marca inicial o una empresa veterana en busca de cambio de
 										marca, Kristina puede crear la identidad de negocios de sus clientes, ofreciendo la dirección creativa
 										en el diseño del logotipo de la empresa, la guía de estilo, paletas de colores, la tipografía y la
 										fotografía.">
-		</p>
+            </p>
 
-		<h4 data-i18n="Digital Marketing"
-			data-i18n-es="Publicidad Digital"></h4>
-		<p data-i18n="Search Engine Optimization, Social Media, and Email Marketing/Newsletters are a few of the digital marketing
+            <h4 data-i18n="Digital Marketing"
+                data-i18n-es="Publicidad Digital"></h4>
+            <p data-i18n="Search Engine Optimization, Social Media, and Email Marketing/Newsletters are a few of the digital marketing
 									strategies that Kristina can advise her clients on."
 
-			data-i18n-es="Optimización de motores de búsqueda, redes sociales y marketing por correo electrónico y boletines son
+               data-i18n-es="Optimización de motores de búsqueda, redes sociales y marketing por correo electrónico y boletines son
 										algunas de las estrategias de marketing digital que Kristina puede asesorar a sus clientes.">
-		</p>
-	</div>
-
-	<!-- <div class="center">
-		<div class="category" data-i18n="porfolio" data-i18n-es="proyectos"></div>
-	</div> -->
-</nav>
-
-
-
-
-
-<!-- <div class="projects">
-	<div class="card">
-		<p>Urban Merch</p>
-	</div>
-
-	<div class="preview">
-		<img src=http://www.fillmurray.com/600/400 alt="preview image of Urban Merch">
-	</div>
-</div> -->
-
-
+            </p>
+        </div>
+    </section>
+</main>
 </body>
 
 <footer>
-	<!-- <section class=social> -->
-		<a href="https://www.flickr.com/photos/kristinagern/albums">flickr</a>
-		<a href="https://medium.com/@kmgern">medium</a>
-		<a href="https://twitter.com/KristinaMGern">twitter</a>
-		<a href="https://ie.linkedin.com/in/kristina-gern-8ba808a">linkedIn</a>
-		<a href="mailto:contact@kristinagern.com" data-i18n="contact" data-i18n-es="contacto" target="_blank"></a>
-	<!-- </section> -->
-	<!-- <section class=copyright> -->
-		<!-- <p>© Kristina Gern, 2016</p> -->
-	<!-- </section> -->
+    <a href="https://www.flickr.com/photos/kristinagern/albums">flickr</a>
+    <a href="https://medium.com/@kmgern">medium</a>
+    <a href="https://twitter.com/KristinaMGern">twitter</a>
+    <a href="https://ie.linkedin.com/in/kristina-gern-8ba808a">linkedIn</a>
+    <a href="mailto:contact@kristinagern.com" data-i18n="contact" data-i18n-es="contacto" target="_blank"></a>
 </footer>
 
 <script src="scripts/i18n.js"></script>
