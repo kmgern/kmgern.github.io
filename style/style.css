@@ -32,17 +32,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5.5rem;
+    padding: 0 1.5rem;
 
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
 }
 
 main {
-    margin-top: 10rem;
     padding-bottom: 1rem;
+}
+
+header {
+    margin: 6rem 0;
 }
 
 header span {
@@ -79,60 +79,28 @@ p {
 
 section {
     background-color: #FFFFFF;
-    top: 0;
-    position: fixed;
-    height: 100vh;
 
     display: flex;
     align-items: center;
-    transition: all .5s ease-in-out;
 
-    z-index: 1;
+    flex-direction: column;
 }
 
 section .category {
     font-size: 1.5rem;
-    cursor: pointer;
-    width: 3.5rem;
+
+    border-top: 2px solid #222222;
+    border-bottom: 2px solid #222222;
+
+    width: 100%;
+
+    padding: 1rem 0;
 }
 
 section .details {
-    width: 20rem;
-
-    padding: 0 2rem;
     text-align: left;
 
-    height: 100%;
-    overflow: auto;
-    padding-top: 4rem;
-}
-
-section.about {
-    left: -20rem;
-    border-right: 2px solid #222222;
-    flex-direction: row-reverse;
-}
-
-section.about:hover {
-    left: 0;
-}
-
-section.about .category {
-    transform: rotate(-90deg);
-}
-
-section.work {
-    right: -20rem;
-    border-left: 2px solid #222222;
-    flex-direction: row;
-}
-
-section.work .category {
-    transform: rotate(90deg);
-}
-
-section.work:hover {
-    right: 0;
+    padding: 2rem;
 }
 
 .language {
@@ -182,4 +150,63 @@ footer a:not(:last-child) {
     border-right: 1px solid black;
     padding-right: .5rem;
     margin-right: .5rem;
+}
+
+@media only screen and (min-width: 600px) {
+    nav {
+        padding: 0 5.5rem;
+    }
+
+    section {
+        top: 0;
+        position: fixed;
+        height: 100vh;
+
+        transition: all .5s ease-in-out;
+
+        z-index: 1;
+    }
+
+    section .category {
+        cursor: pointer;
+        width: 3.5rem;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    section .details {
+        width: 20rem;
+
+        height: 100%;
+        overflow: auto;
+        padding: 4rem 2rem 0;
+    }
+
+    section.about {
+        left: -20rem;
+        border-right: 2px solid #222222;
+        flex-direction: row-reverse;
+    }
+
+    section.about:hover {
+        left: 0;
+    }
+
+    section.about .category {
+        transform: rotate(-90deg);
+    }
+
+    section.work {
+        right: -20rem;
+        border-left: 2px solid #222222;
+        flex-direction: row;
+    }
+
+    section.work .category {
+        transform: rotate(90deg);
+    }
+
+    section.work:hover {
+        right: 0;
+    }
 }
